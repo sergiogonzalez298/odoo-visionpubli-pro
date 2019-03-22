@@ -1,0 +1,1 @@
+# odoo-visionpubli-pro
