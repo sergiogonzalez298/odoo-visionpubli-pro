@@ -225,6 +225,8 @@ class KingfisherTheme(WebsiteSale):
 
         # odoo11
         # for displaying after whishlist or add to cart button n product_detail page
+        if request.uid == 4:
+            return request.render('web.login')
         if request.env.get('product.attribute.category') != None:
             compare_tmpl_obj = request.env.ref(
                 'website_sale_comparison.product_add_to_compare')
