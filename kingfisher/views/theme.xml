@@ -969,8 +969,8 @@
                     <div class="toolbar-pager">
                         <div class="pager_left">
                             <div class="view-mode">
-                                <button class="shift_grid_view active" title="Grid View">
-                                    <i class="fa fa-th-large"/>
+                                <button class="shift_grid_view" title="Grid View">
+                                    <i class="fa fa-th-large active"/>
                                 </button>
                                 <button class="shift_list_view" title="List View">
                                     <i class="fa fa-bars"/>
